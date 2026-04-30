@@ -1,8 +1,40 @@
-namespace GhostProject.core
+using System.Collections.Generic;
+
+namespace GhostProject.Core
 {
     public enum GameState { MENU, RUNNING, PAUSED, GAME_OVER, FINISHED }
     public enum HazardType { ACID, LASER }
 
+    public class Sector
+    {
+        public string name;
+        public bool isCompleted;
+        public List<GameObject> sectorObjects = new List<GameObject>();
+
+        public void LoadObjects() { }
+        public void CheckCompletion() { }
+    }
+
+    public class World
+    {
+        public string name;
+        public List<Sector> sectors = new List<Sector>();
+
+        public void InitializeWorld() { }
+        public Sector GetSector(int index) => sectors[index];
+    }
+
+    public class Game
+    {
+        public GameState state;
+        public int currentLevelIndex;
+        public World world;
+
+        public void StartGame() { state = GameState.RUNNING; }
+        public void RestartGame() { }
+        public void EndGame() { state = GameState.FINISHED; }
+        public void LoadSector(int index) { currentLevelIndex = index; }
+    }
 
     public abstract class GameObject
     {
