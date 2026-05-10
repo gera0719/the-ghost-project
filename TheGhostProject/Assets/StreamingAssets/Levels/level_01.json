@@ -10,15 +10,15 @@
           {
             "type": "acid",
             "x": 5.0,
-            "y": 0.0,
+            "y": 3.0,
             "width": 3.0,
             "height": 1.0
           }
         ],
         "drones": [
           {
-            "x": 10.0,
-            "y": 3.0,
+            "x": 9.0,
+            "y": 8.0,
             "detectionRange": 4.0,
             "patrolType": "horizontal"
           }
