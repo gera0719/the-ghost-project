@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Physics & Components")]
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private BoxCollider2D col;
+    [SerializeField] private PolygonCollider2D col;
     [SerializeField] private LayerMask groundLayer;
 
     private GhostProject.Core.Player playerLogic;
@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         playerLogic = new GhostProject.Core.Player();
 
         if (rb == null) rb = GetComponent<Rigidbody2D>();
-        if (col == null) col = GetComponent<BoxCollider2D>();
+        if (col == null) col = GetComponent<PolygonCollider2D>();
 
         if (rb != null)
         {
