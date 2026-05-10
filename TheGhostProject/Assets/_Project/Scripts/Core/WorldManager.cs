@@ -57,10 +57,8 @@ public class WorldManager : MonoBehaviour
             Vector3 startPos = new Vector3(rawData.playerStart.x, rawData.playerStart.y, 0);
             UnityObject p = Instantiate(playerPrefab, startPos, Quaternion.identity);
 
-            // Méret beállítása 0.4-re
             p.transform.localScale = new Vector3(0.4f, 0.4f, 1f);
 
-            // A kamera célpontjának beállítása (ha a CameraController-t használod)
             if (Camera.main.TryGetComponent<CameraController>(out var camCtrl))
             {
                 camCtrl.SetTarget(p.transform);

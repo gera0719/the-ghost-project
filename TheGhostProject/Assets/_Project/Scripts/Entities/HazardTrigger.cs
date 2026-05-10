@@ -1,5 +1,5 @@
 using UnityEngine;
-using GhostProject.Core; // [cite: 166]
+using GhostProject.Core;
 
 public class HazardTrigger : MonoBehaviour
 {

@@ -17,7 +17,6 @@ public class DronePatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Szinuszos mozgás a kezdőpont körül - így sosem száll el!
         float offset = Mathf.Sin(Time.time * speed) * range;
 
         if (patrolType == "vertical")
