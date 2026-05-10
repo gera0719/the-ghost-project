@@ -351,6 +351,7 @@ GameObject:
   - component: {fileID: 771628531}
   - component: {fileID: 771628533}
   - component: {fileID: 771628532}
+  - component: {fileID: 771628534}
   m_Layer: 0
   m_Name: Systems
   m_TagString: Untagged
@@ -386,8 +387,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: GhostProject.Main::WorldManager
   loader: {fileID: 771628533}
+<<<<<<< Updated upstream
   playerPrefab: {fileID: 919132149155446097, guid: 77e6dbf78c94c094592ede85ab800ae1, type: 3}
   dronePrefab: {fileID: 4003870374276848305, guid: e278a3fc80ca7b345a7f882dd5e30f08, type: 3}
+=======
+  playerPrefab: {fileID: 4881237371439856996, guid: 1cab3d93155b51840bc5f07cc4af7070, type: 3}
+  dronePrefab: {fileID: 8272667315486268495, guid: 786afa76509c49e40b85e41bc0358fb3, type: 3}
+>>>>>>> Stashed changes
   hazardPrefab: {fileID: 2430865413000414391, guid: 2da45766e6852884a914533880d43626, type: 3}
 --- !u!114 &771628533
 MonoBehaviour:
@@ -402,6 +408,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: GhostProject.Main::LevelLoader
   levelFileName: level_01.json
+--- !u!114 &771628534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771628528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9de2014bbad8242b8822f262e712f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GhostProject.Main::GameManager
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
