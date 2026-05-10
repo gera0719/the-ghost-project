@@ -1,4 +1,4 @@
-# The Ghost Project - szkeleton (v0.1)
+# The Ghost Project - szkeleton (v1.0)
 
 ## Projekt Leírása
 A **The Ghost Project** egy 2D-s lopakodós akciójáték, ahol a játékos egy meghiúsult kísérleti projekt alanyának szerepében menekül az elzárt állomásról. A küldetés célja kritikus adatok kinyerése a terminálok feltörésével, miközben el kell kerülni a járőröző biztonsági drónokat és a környezeti veszélyforrásokat.
