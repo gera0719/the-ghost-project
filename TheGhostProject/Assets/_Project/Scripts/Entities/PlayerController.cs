@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     private float horizontalInput;
     private bool isGrounded;
+    private float baseScale = 0.4f;
 
     void Start()
     {
@@ -80,11 +81,11 @@ public class PlayerController : MonoBehaviour
 
         if (isCrouching)
         {
-            transform.localScale = new Vector3(1f, 0.5f, 1f);
+            transform.localScale = new Vector3(baseScale, baseScale * 0.5f, 1f);
         }
         else
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.localScale = new Vector3(baseScale, baseScale, 1f);
         }
     }
 

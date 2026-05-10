@@ -17,11 +17,19 @@ namespace GhostProject.Data
     }
 
     [Serializable]
+    public class PlayerData
+    {
+        public float x;
+        public float y;
+    }
+
+    [Serializable]
     public class SectorData
     {
         public string id;
         public string name;
         public string description;
+        public PlayerData playerStart;
         public List<HazardData> hazards;
         public List<DroneData> drones;
         public List<TerminalData> terminals;
@@ -43,7 +51,6 @@ namespace GhostProject.Data
     {
         public float x; 
         public float y; 
-        public float detectionRange; 
         public string patrolType; 
     }
 
@@ -52,7 +59,9 @@ namespace GhostProject.Data
     {
         public string id; 
         public float x; 
-        public float y; 
+        public float y;
+        public float width;
+        public float height;
         public string message; 
     }
 

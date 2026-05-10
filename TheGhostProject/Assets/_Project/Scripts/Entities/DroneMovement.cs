@@ -1,20 +1,35 @@
 using UnityEngine;
 
-public class DroneMovement : MonoBehaviour
+public class DronePatrol : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float range = 3f;
+    public float speed = 2f;
+    public string patrolType = "horizontal";
+
+    private Vector3 startPos;
+    private float baseScale = 0.46f;
     void Start()
     {
-        
+        startPos = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float newX = transform.position.x + Mathf.Sin(Time.time * 2f) * 0.01f;
-        transform.position = new Vector2(newX, transform.position.y);
+        // Szinuszos mozgás a kezdőpont körül - így sosem száll el!
+        float offset = Mathf.Sin(Time.time * speed) * range;
 
-        if (Mathf.Sin(Time.time * 2f) > 0) transform.localScale = new Vector3(1, 1, 1);
-        else transform.localScale = new Vector3(-1, 1, 1);
+        if (patrolType == "vertical")
+        {
+            transform.position = startPos + new Vector3(0, offset, 0);
+        }
+        else
+        {
+            transform.position = startPos + new Vector3(offset, 0, 0);
+
+            if (offset > 0.1f) transform.localScale = new Vector3(baseScale, baseScale, 1f);
+            else if (offset < -0.1f) transform.localScale = new Vector3(-baseScale, baseScale, 1f);
+        }
     }
 }
