@@ -42,7 +42,7 @@ public class WorldManager : MonoBehaviour
         // Player
         if (playerPrefab != null)
         {
-            Instantiate(playerPrefab, Vector3.zero, Quaternion.identity);
+            Instantiate(playerPrefab, new Vector3(-25,-3,0), Quaternion.identity);
             Debug.Log("[WorldManager] -> Player succefully placed.");
         }
         else
