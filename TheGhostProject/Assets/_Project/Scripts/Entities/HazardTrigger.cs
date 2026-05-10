@@ -7,7 +7,7 @@ public class HazardTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("[Hazard] A játékos savba vagy lézerbe lépett!");
+            Debug.Log("[Hazard] Player collided with hazard!");
             GameManager.Instance.PlayerDied();
         }
     }

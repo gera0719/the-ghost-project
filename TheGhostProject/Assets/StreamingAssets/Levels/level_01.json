@@ -4,8 +4,15 @@
     "sectors": [
       {
         "id": "quarantine",
-        "name": "Quarantine Zone",
+        "name": "Quarantine Zone - Skeleton",
         "description": "The abandoned quarantine level.",
+        "story": "You find yourself in the quarantine zone of an abandoned research facility. The air is thick with the remnants of a long-forgotten virus outbreak. As you navigate through the eerie corridors, you must avoid hazardous areas and hostile drones while uncovering the secrets of what happened here.",
+        "dialogue": [
+          {
+            "speaker": "AI Assistant",
+            "message": "Terminal interaction available. Press 'e'."
+          }
+        ],
         "playerStart": {
           "x": -10.0,
           "y": -5.0
@@ -38,7 +45,7 @@
             "y": -3.65,
             "width": 0.9,
             "height": 2.038,
-            "message": "Log entry: experiment failed."
+            "message": "Accessing quarantine logs... The virus outbreak was contained, but the facility was abandoned. Proceed with caution."
           }
         ],
         "transitions": [

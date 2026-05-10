@@ -15,6 +15,7 @@ public class WorldManager : MonoBehaviour
     [SerializeField] private UnityObject dronePrefab;
     [SerializeField] private UnityObject hazardPrefab;
     [SerializeField] private UnityObject obstacleStaticPrefab;
+    [SerializeField] private UnityObject terminalPrefab;
 
     private Game gameInstance;
 
@@ -51,7 +52,7 @@ public class WorldManager : MonoBehaviour
         var rawData = lastLoaded.world.sectors[index];
         Debug.Log($"[WorldManager] Sector data have been read. Number of hazards: {rawData.hazards?.Count}, Number of drones: {rawData.drones?.Count}");
 
-        // 2. Player
+        // Player
         if (playerPrefab != null && rawData.playerStart != null)
         {
             Vector3 startPos = new Vector3(rawData.playerStart.x, rawData.playerStart.y, 0);
@@ -67,7 +68,7 @@ public class WorldManager : MonoBehaviour
             Debug.Log($"[WorldManager] Player spawned at {startPos} with scale 0.4");
         }
 
-        // 3. Hazards
+        // Hazards
         if (rawData.hazards != null)
         {
             foreach (var h in rawData.hazards)
@@ -87,12 +88,12 @@ public class WorldManager : MonoBehaviour
             }
         }
 
-        // 3. Hazards
+        // Terminals
         if (rawData.terminals != null)
         {
             foreach (var t in rawData.terminals)
             {
-                UnityObject prefabToUse = obstacleStaticPrefab;
+                UnityObject prefabToUse = terminalPrefab;
                 if (obstacleStaticPrefab != null)
                 {
                     Vector3 pos = new Vector3(t.x, t.y, -1);
@@ -107,7 +108,7 @@ public class WorldManager : MonoBehaviour
             }
         }
 
-        // 4. Drones
+        // Drones
         if (rawData.drones != null)
         {
             foreach (var d in rawData.drones)
@@ -129,6 +130,12 @@ public class WorldManager : MonoBehaviour
                     Debug.LogError("[WorldManager] Missing dronePrefab.");
                 }
             }
+        }
+
+        //history
+        if (!string.IsNullOrEmpty(rawData.story))
+        {
+            Debug.Log($"<color=cyan>[STORY LOADED]:</color> <color=purple>{rawData.story}</color>");
         }
     }
 }

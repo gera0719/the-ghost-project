@@ -4,7 +4,7 @@ public class DronePatrol : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float range = 3f;
-    public float speed = 2f;
+    public float speed = 1f;
     public string patrolType = "horizontal";
 
     private Vector3 startPos;

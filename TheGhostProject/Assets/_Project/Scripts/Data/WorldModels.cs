@@ -29,11 +29,20 @@ namespace GhostProject.Data
         public string id;
         public string name;
         public string description;
+        public string story;
+        public List<Dialogue> dialogues;
         public PlayerData playerStart;
         public List<HazardData> hazards;
         public List<DroneData> drones;
         public List<TerminalData> terminals;
         public List<TransitionData> transitions;
+    }
+
+    [Serializable]
+    public class Dialogue
+    {
+        public string speaker;
+        public string message;
     }
 
     [Serializable]

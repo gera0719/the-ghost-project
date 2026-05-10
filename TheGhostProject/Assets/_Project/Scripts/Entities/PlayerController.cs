@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private bool isGrounded;
     private float baseScale = 0.4f;
+    private IInteractable currentInteractable;
 
     void Start()
     {
@@ -91,8 +92,35 @@ public class PlayerController : MonoBehaviour
 
     private void Interact()
     {
-        playerLogic.Interact();
         Debug.Log("[PlayerController] Interaction started!");
+        if (currentInteractable != null)
+        {
+            currentInteractable.Interact();
+        }
+        else
+        {
+            Debug.LogWarning("[PlayerController] No interactable object nearby.");
+        }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        var interactable = other.GetComponent<IInteractable>();
+        if (interactable != null)
+        {
+            currentInteractable = interactable;
+            Debug.Log("$\"<color=cyan>[Player] Interaction available: Pres E");
+
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.GetComponent<IInteractable>() == currentInteractable)
+        {
+            currentInteractable = null;
+        }
     }
 
     private bool IsGrounded()
