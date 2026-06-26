@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -4270874619309656944}
   m_Layer: 0
   m_Name: TerminalPrefab
-  m_TagString: Untagged
+  m_TagString: GeneratedElement
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

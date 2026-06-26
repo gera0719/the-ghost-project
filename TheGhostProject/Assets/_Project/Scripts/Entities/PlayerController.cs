@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     private float horizontalInput;
     private bool isGrounded;
-    private float baseScale = 0.4f;
+    private float baseScale = 3.48f;
     private IInteractable currentInteractable;
 
     void Start()
@@ -82,11 +82,25 @@ public class PlayerController : MonoBehaviour
 
         if (isCrouching)
         {
-            transform.localScale = new Vector3(baseScale, baseScale * 0.5f, 1f);
+            if (transform.localScale.y > baseScale * 0.9f)
+            {
+                float fullHeight = col.bounds.size.y;
+
+                transform.localScale = new Vector3(baseScale, baseScale * 0.5f, 1f);
+
+                transform.position -= new Vector3(0f, fullHeight * 0.25f, 0f);
+            }
         }
         else
         {
-            transform.localScale = new Vector3(baseScale, baseScale, 1f);
+            if (transform.localScale.y < baseScale)
+            {
+                transform.localScale = new Vector3(baseScale, baseScale, 1f);
+
+                float fullHeight = col.bounds.size.y;
+
+                transform.position += new Vector3(0f, fullHeight * 0.25f, 0f);
+            }
         }
     }
 

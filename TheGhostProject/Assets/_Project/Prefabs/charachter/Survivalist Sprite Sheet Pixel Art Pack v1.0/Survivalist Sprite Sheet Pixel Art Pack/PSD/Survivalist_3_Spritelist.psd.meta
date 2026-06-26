@@ -1,0 +1,2171 @@
+fileFormatVersion: 2
+guid: 931bfb800154e6344a3226c2324bd124
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8205667431675646608
+    second: Survivalist_3_Spritelist_0
+  - first:
+      213: -8424320697965383004
+    second: Survivalist_3_Spritelist_1
+  - first:
+      213: -3506793437193180785
+    second: Survivalist_3_Spritelist_2
+  - first:
+      213: 3118474130777273134
+    second: Survivalist_3_Spritelist_3
+  - first:
+      213: 3297449138440444297
+    second: Survivalist_3_Spritelist_4
+  - first:
+      213: 4359693065705297283
+    second: Survivalist_3_Spritelist_5
+  - first:
+      213: 1171047930926850861
+    second: Survivalist_3_Spritelist_6
+  - first:
+      213: 8625325699185669378
+    second: Survivalist_3_Spritelist_7
+  - first:
+      213: -8681311749882609252
+    second: Survivalist_3_Spritelist_8
+  - first:
+      213: 4710543935095500148
+    second: Survivalist_3_Spritelist_9
+  - first:
+      213: 7129375109555115663
+    second: Survivalist_3_Spritelist_10
+  - first:
+      213: 2818102347307578787
+    second: Survivalist_3_Spritelist_11
+  - first:
+      213: 133607970101165665
+    second: Survivalist_3_Spritelist_12
+  - first:
+      213: -7639455098583937526
+    second: Survivalist_3_Spritelist_13
+  - first:
+      213: 8073765818967721414
+    second: Survivalist_3_Spritelist_14
+  - first:
+      213: -1396261263049209679
+    second: Survivalist_3_Spritelist_15
+  - first:
+      213: 5228884823892129626
+    second: Survivalist_3_Spritelist_16
+  - first:
+      213: 5821430319054761992
+    second: Survivalist_3_Spritelist_17
+  - first:
+      213: 5673608705094521147
+    second: Survivalist_3_Spritelist_18
+  - first:
+      213: 5910982899534864115
+    second: Survivalist_3_Spritelist_19
+  - first:
+      213: 4685281660749179625
+    second: Survivalist_3_Spritelist_20
+  - first:
+      213: 6396658188622954479
+    second: Survivalist_3_Spritelist_21
+  - first:
+      213: -8639878056247299714
+    second: Survivalist_3_Spritelist_22
+  - first:
+      213: -6980283370823024132
+    second: Survivalist_3_Spritelist_23
+  - first:
+      213: -4205111059444112605
+    second: Survivalist_3_Spritelist_24
+  - first:
+      213: -1231856798754913033
+    second: Survivalist_3_Spritelist_25
+  - first:
+      213: 3648327180803456967
+    second: Survivalist_3_Spritelist_26
+  - first:
+      213: 1121461288303052731
+    second: Survivalist_3_Spritelist_27
+  - first:
+      213: -1096276309824597079
+    second: Survivalist_3_Spritelist_28
+  - first:
+      213: -6523777507865409749
+    second: Survivalist_3_Spritelist_29
+  - first:
+      213: -4509896114617901448
+    second: Survivalist_3_Spritelist_30
+  - first:
+      213: 647346397448813705
+    second: Survivalist_3_Spritelist_31
+  - first:
+      213: 1867375570301123298
+    second: Survivalist_3_Spritelist_32
+  - first:
+      213: 3253307238852470576
+    second: Survivalist_3_Spritelist_33
+  - first:
+      213: -6574509708330135660
+    second: Survivalist_3_Spritelist_34
+  - first:
+      213: -4140270843332520158
+    second: Survivalist_3_Spritelist_35
+  - first:
+      213: -3260370959610405068
+    second: Survivalist_3_Spritelist_36
+  - first:
+      213: 566582224373354227
+    second: Survivalist_3_Spritelist_37
+  - first:
+      213: 1173674980975184966
+    second: Survivalist_3_Spritelist_38
+  - first:
+      213: 3402849697363318569
+    second: Survivalist_3_Spritelist_39
+  - first:
+      213: -4453025219903399101
+    second: Survivalist_3_Spritelist_40
+  - first:
+      213: -6597531525577085082
+    second: Survivalist_3_Spritelist_41
+  - first:
+      213: 2178602541242725128
+    second: Survivalist_3_Spritelist_42
+  - first:
+      213: -6405333878047670822
+    second: Survivalist_3_Spritelist_43
+  - first:
+      213: -5405402840727683123
+    second: Survivalist_3_Spritelist_44
+  - first:
+      213: 3975665606579454739
+    second: Survivalist_3_Spritelist_45
+  - first:
+      213: 8572681172508044750
+    second: Survivalist_3_Spritelist_46
+  - first:
+      213: 4414777335678620449
+    second: Survivalist_3_Spritelist_47
+  - first:
+      213: -7746711221541007703
+    second: Survivalist_3_Spritelist_48
+  - first:
+      213: 5963266209574831642
+    second: Survivalist_3_Spritelist_49
+  - first:
+      213: -8709665395270930161
+    second: Survivalist_3_Spritelist_50
+  - first:
+      213: -4751531347883863493
+    second: Survivalist_3_Spritelist_51
+  - first:
+      213: 2377096601793486044
+    second: Survivalist_3_Spritelist_52
+  - first:
+      213: 6690308812619998535
+    second: Survivalist_3_Spritelist_53
+  - first:
+      213: 5426418848887299292
+    second: Survivalist_3_Spritelist_54
+  - first:
+      213: 8260876036337020375
+    second: Survivalist_3_Spritelist_55
+  - first:
+      213: 8077508695475389150
+    second: Survivalist_3_Spritelist_56
+  - first:
+      213: 8668649567029512343
+    second: Survivalist_3_Spritelist_57
+  - first:
+      213: -1244150260276420603
+    second: Survivalist_3_Spritelist_58
+  - first:
+      213: 8812708650574467205
+    second: Survivalist_3_Spritelist_59
+  - first:
+      213: 3531013779073205343
+    second: Survivalist_3_Spritelist_60
+  - first:
+      213: -2700622684679458330
+    second: Survivalist_3_Spritelist_61
+  - first:
+      213: 8736110857600636833
+    second: Survivalist_3_Spritelist_62
+  - first:
+      213: -3206899167127918151
+    second: Survivalist_3_Spritelist_63
+  - first:
+      213: -8388584321592093858
+    second: Survivalist_3_Spritelist_64
+  - first:
+      213: -4456680321531000135
+    second: Survivalist_3_Spritelist_65
+  - first:
+      213: 2647770217027480834
+    second: Survivalist_3_Spritelist_66
+  - first:
+      213: -7162310191576972066
+    second: Survivalist_3_Spritelist_67
+  - first:
+      213: -8741554791786186920
+    second: Survivalist_3_Spritelist_68
+  - first:
+      213: -2921468291510683276
+    second: Survivalist_3_Spritelist_69
+  - first:
+      213: -4620562997124435410
+    second: Survivalist_3_Spritelist_70
+  - first:
+      213: -878877748178685726
+    second: Survivalist_3_Spritelist_71
+  - first:
+      213: 4651919863209425786
+    second: Survivalist_3_Spritelist_72
+  - first:
+      213: -6619489693495949217
+    second: Survivalist_3_Spritelist_73
+  - first:
+      213: 5998780817012523377
+    second: Survivalist_3_Spritelist_74
+  - first:
+      213: -7650520860751901871
+    second: Survivalist_3_Spritelist_75
+  - first:
+      213: -9049072081438053724
+    second: Survivalist_3_Spritelist_76
+  - first:
+      213: 4440171528695893502
+    second: Survivalist_3_Spritelist_77
+  - first:
+      213: -7786642467629893911
+    second: Survivalist_3_Spritelist_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1153
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d2bf542fc9f1e80800000000000000
+      internalID: -8205667431675646608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1153
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a27dcb85fcc61b80800000000000000
+      internalID: -8424320697965383004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1153
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89ed6bd2fd555fc0800000000000000
+      internalID: -3506793437193180785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1153
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23793613bb074b20800000000000000
+      internalID: 3118474130777273134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1153
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98919a15584e2cd20800000000000000
+      internalID: 3297449138440444297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1153
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385191f9ebdb08c30800000000000000
+      internalID: 4359693065705297283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1023
+        width: 40
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23e9d183e5604010800000000000000
+      internalID: 1171047930926850861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1023
+        width: 34
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2057204460053b770800000000000000
+      internalID: 8625325699185669378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1023
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9182d385f8c58780800000000000000
+      internalID: -8681311749882609252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1023
+        width: 31
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dec3e50c63f5140800000000000000
+      internalID: 4710543935095500148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1023
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f865b8b93e0a0f260800000000000000
+      internalID: 7129375109555115663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1023
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a576f76729eb1720800000000000000
+      internalID: 2818102347307578787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1023
+        width: 40
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e7a0dadbbaad100800000000000000
+      internalID: 133607970101165665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1023
+        width: 36
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e8b5b30143bf590800000000000000
+      internalID: -7639455098583937526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1023
+        width: 31
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c503475c37cb0070800000000000000
+      internalID: 8073765818967721414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1023
+        width: 31
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8405a67cb7f9ce0800000000000000
+      internalID: -1396261263049209679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1023
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5775832b0bb09840800000000000000
+      internalID: 5228884823892129626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1023
+        width: 39
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800b2fb2800e9c050800000000000000
+      internalID: 5821430319054761992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 895
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3119b5ae05bcbe40800000000000000
+      internalID: 5673608705094521147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 895
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe1f2021a7080250800000000000000
+      internalID: 5910982899534864115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 902
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea6b95c8d6750140800000000000000
+      internalID: 4685281660749179625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 895
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feff67a4bbe75c850800000000000000
+      internalID: 6396658188622954479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 895
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71ffa21facf81880800000000000000
+      internalID: -8639878056247299714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 895
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf10782e14d012f90800000000000000
+      internalID: -6980283370823024132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 895
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32364c465c174a5c0800000000000000
+      internalID: -4205111059444112605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 895
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f44018a4c097eee0800000000000000
+      internalID: -1231856798754913033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 902
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf3134cd3671a230800000000000000
+      internalID: 3648327180803456967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 895
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7c7a6991b309f00800000000000000
+      internalID: 1121461288303052731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 895
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a39a39218e39c0f0800000000000000
+      internalID: -1096276309824597079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 895
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27cff9cbe2e675a0800000000000000
+      internalID: -6523777507865409749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 767
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e1942d061a961c0800000000000000
+      internalID: -4509896114617901448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 767
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cb0926e16dbf800800000000000000
+      internalID: 647346397448813705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 767
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea7a0aff204ae910800000000000000
+      internalID: 1867375570301123298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 767
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037220d62b1162d20800000000000000
+      internalID: 3253307238852470576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 779
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f00a6e046a2c4a0800000000000000
+      internalID: -6574509708330135660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 774
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2271245aa9dca86c0800000000000000
+      internalID: -4140270843332520158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 768
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f1c6ce2e5d0c2d0800000000000000
+      internalID: -3260370959610405068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 767
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe03dbf787ecd700800000000000000
+      internalID: 566582224373354227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 767
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c0ac24d2bb94010800000000000000
+      internalID: 1173674980975184966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 767
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927d26b45c9593f20800000000000000
+      internalID: 3402849697363318569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 639
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b5dc7d72da332c0800000000000000
+      internalID: -4453025219903399101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 639
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f698f580cd074a0800000000000000
+      internalID: -6597531525577085082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 639
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8033981f773fb3e10800000000000000
+      internalID: 2178602541242725128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 639
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add713b56ceab17a0800000000000000
+      internalID: -6405333878047670822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 639
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcff98261c62cf4b0800000000000000
+      internalID: -5405402840727683123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 658
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31308e12ec66c2730800000000000000
+      internalID: 3975665606579454739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 639
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd650c3b1848f670800000000000000
+      internalID: 8572681172508044750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 511
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123d197a890744d30800000000000000
+      internalID: 4414777335678620449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 511
+        width: 47
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae048610372e7490800000000000000
+      internalID: -7746711221541007703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 511
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a164ccad507c1c250800000000000000
+      internalID: 5963266209574831642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 511
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f013d52087d012780800000000000000
+      internalID: -8709665395270930161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 511
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32df3ee96b2f0eb0800000000000000
+      internalID: -4751531347883863493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 511
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc50b2d3c42df020800000000000000
+      internalID: 2377096601793486044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 536
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74561e51b60c8dc50800000000000000
+      internalID: 6690308812619998535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 511
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc596251338e4b40800000000000000
+      internalID: 5426418848887299292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 386
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dda76facf684a270800000000000000
+      internalID: 8260876036337020375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 386
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed280ffac53191070800000000000000
+      internalID: 8077508695475389150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 439
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798432d4ada3d4870800000000000000
+      internalID: 8668649567029512343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 386
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500a3091ee3ebbee0800000000000000
+      internalID: -1244150260276420603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 439
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580d08273d70d4a70800000000000000
+      internalID: 8812708650574467205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 386
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f540baee25ea00130800000000000000
+      internalID: 3531013779073205343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 448
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1b15f0af5758ad0800000000000000
+      internalID: -2700622684679458330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 436
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a718b10a86ec3970800000000000000
+      internalID: 8736110857600636833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 386
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b928d8c23ece73d0800000000000000
+      internalID: -3206899167127918151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 433
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53971f0103c59b80800000000000000
+      internalID: -8388584321592093858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 255
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bacbad2cd0b622c0800000000000000
+      internalID: -4456680321531000135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 255
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d28c0ebf4ceb420800000000000000
+      internalID: 2647770217027480834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_67
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 255
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed405eb04dc5a9c90800000000000000
+      internalID: -7162310191576972066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_68
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 255
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85778fa4b32cfa680800000000000000
+      internalID: -8741554791786186920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_69
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 255
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47930f5411cd477d0800000000000000
+      internalID: -2921468291510683276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_70
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 255
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2275165f6670efb0800000000000000
+      internalID: -4620562997124435410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_71
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 255
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e070d238599dc3f0800000000000000
+      internalID: -878877748178685726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_72
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 127
+        width: 43
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b7e2af770fe8040800000000000000
+      internalID: 4651919863209425786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_73
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 127
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5880d00239d224a0800000000000000
+      internalID: -6619489693495949217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_74
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 127
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1718573ce53ff3350800000000000000
+      internalID: 5998780817012523377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_75
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 127
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bca24bfc3e3d590800000000000000
+      internalID: -7650520860751901871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_76
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aaeafec2ec3b6280800000000000000
+      internalID: -9049072081438053724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_77
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdc8b5fa78ae9d30800000000000000
+      internalID: 4440171528695893502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Survivalist_3_Spritelist_78
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 73
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6f2fb5ee940f390800000000000000
+      internalID: -7786642467629893911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Survivalist_3_Spritelist_0: -8205667431675646608
+      Survivalist_3_Spritelist_1: -8424320697965383004
+      Survivalist_3_Spritelist_10: 7129375109555115663
+      Survivalist_3_Spritelist_11: 2818102347307578787
+      Survivalist_3_Spritelist_12: 133607970101165665
+      Survivalist_3_Spritelist_13: -7639455098583937526
+      Survivalist_3_Spritelist_14: 8073765818967721414
+      Survivalist_3_Spritelist_15: -1396261263049209679
+      Survivalist_3_Spritelist_16: 5228884823892129626
+      Survivalist_3_Spritelist_17: 5821430319054761992
+      Survivalist_3_Spritelist_18: 5673608705094521147
+      Survivalist_3_Spritelist_19: 5910982899534864115
+      Survivalist_3_Spritelist_2: -3506793437193180785
+      Survivalist_3_Spritelist_20: 4685281660749179625
+      Survivalist_3_Spritelist_21: 6396658188622954479
+      Survivalist_3_Spritelist_22: -8639878056247299714
+      Survivalist_3_Spritelist_23: -6980283370823024132
+      Survivalist_3_Spritelist_24: -4205111059444112605
+      Survivalist_3_Spritelist_25: -1231856798754913033
+      Survivalist_3_Spritelist_26: 3648327180803456967
+      Survivalist_3_Spritelist_27: 1121461288303052731
+      Survivalist_3_Spritelist_28: -1096276309824597079
+      Survivalist_3_Spritelist_29: -6523777507865409749
+      Survivalist_3_Spritelist_3: 3118474130777273134
+      Survivalist_3_Spritelist_30: -4509896114617901448
+      Survivalist_3_Spritelist_31: 647346397448813705
+      Survivalist_3_Spritelist_32: 1867375570301123298
+      Survivalist_3_Spritelist_33: 3253307238852470576
+      Survivalist_3_Spritelist_34: -6574509708330135660
+      Survivalist_3_Spritelist_35: -4140270843332520158
+      Survivalist_3_Spritelist_36: -3260370959610405068
+      Survivalist_3_Spritelist_37: 566582224373354227
+      Survivalist_3_Spritelist_38: 1173674980975184966
+      Survivalist_3_Spritelist_39: 3402849697363318569
+      Survivalist_3_Spritelist_4: 3297449138440444297
+      Survivalist_3_Spritelist_40: -4453025219903399101
+      Survivalist_3_Spritelist_41: -6597531525577085082
+      Survivalist_3_Spritelist_42: 2178602541242725128
+      Survivalist_3_Spritelist_43: -6405333878047670822
+      Survivalist_3_Spritelist_44: -5405402840727683123
+      Survivalist_3_Spritelist_45: 3975665606579454739
+      Survivalist_3_Spritelist_46: 8572681172508044750
+      Survivalist_3_Spritelist_47: 4414777335678620449
+      Survivalist_3_Spritelist_48: -7746711221541007703
+      Survivalist_3_Spritelist_49: 5963266209574831642
+      Survivalist_3_Spritelist_5: 4359693065705297283
+      Survivalist_3_Spritelist_50: -8709665395270930161
+      Survivalist_3_Spritelist_51: -4751531347883863493
+      Survivalist_3_Spritelist_52: 2377096601793486044
+      Survivalist_3_Spritelist_53: 6690308812619998535
+      Survivalist_3_Spritelist_54: 5426418848887299292
+      Survivalist_3_Spritelist_55: 8260876036337020375
+      Survivalist_3_Spritelist_56: 8077508695475389150
+      Survivalist_3_Spritelist_57: 8668649567029512343
+      Survivalist_3_Spritelist_58: -1244150260276420603
+      Survivalist_3_Spritelist_59: 8812708650574467205
+      Survivalist_3_Spritelist_6: 1171047930926850861
+      Survivalist_3_Spritelist_60: 3531013779073205343
+      Survivalist_3_Spritelist_61: -2700622684679458330
+      Survivalist_3_Spritelist_62: 8736110857600636833
+      Survivalist_3_Spritelist_63: -3206899167127918151
+      Survivalist_3_Spritelist_64: -8388584321592093858
+      Survivalist_3_Spritelist_65: -4456680321531000135
+      Survivalist_3_Spritelist_66: 2647770217027480834
+      Survivalist_3_Spritelist_67: -7162310191576972066
+      Survivalist_3_Spritelist_68: -8741554791786186920
+      Survivalist_3_Spritelist_69: -2921468291510683276
+      Survivalist_3_Spritelist_7: 8625325699185669378
+      Survivalist_3_Spritelist_70: -4620562997124435410
+      Survivalist_3_Spritelist_71: -878877748178685726
+      Survivalist_3_Spritelist_72: 4651919863209425786
+      Survivalist_3_Spritelist_73: -6619489693495949217
+      Survivalist_3_Spritelist_74: 5998780817012523377
+      Survivalist_3_Spritelist_75: -7650520860751901871
+      Survivalist_3_Spritelist_76: -9049072081438053724
+      Survivalist_3_Spritelist_77: 4440171528695893502
+      Survivalist_3_Spritelist_78: -7786642467629893911
+      Survivalist_3_Spritelist_8: -8681311749882609252
+      Survivalist_3_Spritelist_9: 4710543935095500148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
