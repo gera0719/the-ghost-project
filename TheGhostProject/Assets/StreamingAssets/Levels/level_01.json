@@ -6,6 +6,8 @@
         "id": "quarantine",
         "name": "Quarantine Zone - Skeleton",
         "description": "The abandoned quarantine level.",
+        "backgroundSpriteName": "bg_quarantine",
+        "groundSettings": { "x": 0.0, "y": -5.274, "width": 25.5, "height": 0.2 },
         "story": "You find yourself in the quarantine zone of an abandoned research facility. The air is thick with the remnants of a long-forgotten virus outbreak. As you navigate through the eerie corridors, you must avoid hazardous areas and hostile drones while uncovering the secrets of what happened here.",
         "dialogue": [
           {
@@ -47,13 +49,54 @@
             "height": 2.038,
             "message": "Accessing quarantine logs... The virus outbreak was contained, but the facility was abandoned. Proceed with caution."
           }
-        ],
-        "transitions": [
+        ]
+      },
+      {
+        "id": "server_room",
+        "name": "Server Room",
+        "description": "The heart of the research facility's infrastructure.",
+        "backgroundSpriteName": "bg_serverroom",
+        "groundSettings": { "x": 0.0, "y": -5.274, "width": 25.5, "height": 0.2 },
+        "story": "You arrive in the server room, where the facility's mainframe is located. The room is filled with humming servers and blinking lights. You must navigate through the area, avoiding hazards and drones, to access the critical data stored here.",
+        "dialogue": [
           {
-            "targetSector": "server_room",
-            "x": 20.0,
-            "y": 1.0,
-            "requiredComplete": false
+            "speaker": "AI Assistant",
+            "message": "Terminal interaction available. Press 'e'."
+          }
+        ],
+        "playerStart": {
+          "x": -9.5,
+          "y": -3.75
+        },
+        "hazards": [
+          {
+            "type": "acid",
+            "x": -0.66,
+            "y": -4.65,
+            "width": 2.34,
+            "height": 0.7
+          }
+        ],
+        "drones": [
+          {
+            "x": 2.5,
+            "y": -0.3,
+            "patrolType": "horizontal"
+          },
+          {
+            "x": 5.0,
+            "y": -1.0,
+            "patrolType": "vertical"
+          }
+        ],
+        "terminals": [
+          {
+            "id": "terminal01",
+            "x": 10.41,
+            "y": -3.65,
+            "width": 0.9,
+            "height": 2.038,
+            "message": "Accessing server logs... The facility's systems are down, but some data remains. Proceed with caution."
           }
         ]
       }

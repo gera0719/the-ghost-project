@@ -10,6 +10,10 @@ public class WorldManager : MonoBehaviour
     [Header("Dependencies")]
     [SerializeField] private LevelLoader loader;
 
+    [Header("Dynamic Environment")]
+    [SerializeField] private SpriteRenderer backgroundRenderer;
+    [SerializeField] private Transform groundTransform;
+
     [Header("Prefabs")]
     [SerializeField] private UnityObject playerPrefab;
     [SerializeField] private UnityObject dronePrefab;
@@ -46,36 +50,32 @@ public class WorldManager : MonoBehaviour
             return;
         }
 
-        // Ellenőrizzük, hogy van-e még szektor a JSON fájlban
         if (index >= lastLoaded.world.sectors.Count)
         {
             Debug.Log("<color=gold>[VICTORY]: Nincs több szektor a JSON-ben! Megnyerted a játékot!</color>");
-            // Ide jöhet majd a stáblista, főmenübe való visszatérés, vagy egy győzelmi képernyő
             return;
         }
 
-        // 1. Megjegyezzük az aktuális indexet
         currentSectorIndex = index;
 
-        // 2. Kitakarítjuk az előző pálya összes elemét a jelenetből
         ClearCurrentSector();
 
-        // 3. Legyártjuk az új szektort
         SpawnSector(index);
     }
 
-    // SZENIOR BŐVÍTÉS: Ezt a metódust fogja meghívni a GameManager, amikor a puzzle sikeresen bezárul
+    public void ReloadCurrentSector()
+    {
+        Debug.Log($"[WorldManager] Reloading sector index: {currentSectorIndex}");
+        LoadSector(currentSectorIndex);
+    }
+
     public void NextSector()
     {
         LoadSector(currentSectorIndex + 1);
     }
 
-    // SZENIOR BŐVÍTÉS: A "Takarítóbrigád"
     private void ClearCurrentSector()
     {
-        // Összegyűjtjük és letöröljük az összes olyan Unity objektumot, amit mi spawnoltunk.
-        // Hogy ez működjön, győződj meg róla, hogy a SpawnSector-ban létrehozott klónok megkapják 
-        // a megfelelő "GeneratedElement" vagy "Player" taget!
 
         UnityObject[] oldElements = UnityObject.FindGameObjectsWithTag("GeneratedElement");
         foreach (UnityObject element in oldElements)
@@ -101,6 +101,30 @@ public class WorldManager : MonoBehaviour
         var lastLoaded = loader.GetLastLoadedData();
         var rawData = lastLoaded.world.sectors[index];
         Debug.Log($"[WorldManager] Sector data have been read. Number of hazards: {rawData.hazards?.Count}, Number of drones: {rawData.drones?.Count}");
+
+        if (backgroundRenderer != null && !string.IsNullOrEmpty(rawData.backgroundSpriteName))
+        {
+            Sprite newBg = Resources.Load<Sprite>($"Backgrounds/{rawData.backgroundSpriteName}");
+
+            if (newBg != null)
+            {
+                backgroundRenderer.sprite = newBg;
+                Debug.Log($"[WorldManager] Háttér sikeresen lecserélve: {rawData.backgroundSpriteName}");
+            }
+            else
+            {
+                Debug.LogWarning($"[WorldManager] Nem található háttérkép a Resources/Backgrounds/{rawData.backgroundSpriteName} útvonalon!");
+            }
+        }
+
+        if (groundTransform != null && rawData.groundSettings != null)
+        {
+            groundTransform.position = new Vector3(rawData.groundSettings.x, rawData.groundSettings.y, 0f);
+
+            groundTransform.localScale = new Vector3(rawData.groundSettings.width, rawData.groundSettings.height, 1f);
+
+            Debug.Log($"[WorldManager] Talaj dinamikusan beállítva. Pozíció: {groundTransform.position}, Szélesség: {rawData.groundSettings.width}");
+        }
 
 
         // Player

@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 {
     [Header("UI References")]
     [SerializeField] private UnityObject puzzleUI;
+    [Header("Managers")]
+    [SerializeField] private WorldManager worldManager;
     public static GameManager Instance { get; private set; }
 
     private GhostProject.Core.Game gameLogic;
@@ -41,15 +43,37 @@ public class GameManager : MonoBehaviour
         if (puzzleUI != null)
         {
             puzzleUI.SetActive(false);
+
             Time.timeScale = 1;
+
+            Debug.Log("[GameManager] Puzzle completed successfully. Transitioning to next sector...");
+
+            if (worldManager != null)
+            {
+                worldManager.NextSector();
+            }
+            else
+            {
+                Debug.LogError("[GameManager] WorldManager reference is missing in the Inspector!");
+            }
         }
     }
 
     public void PlayerDied()
     {
-        Debug.Log("[GameManager] Player is dead. Restarting sector...");
-        gameLogic.state = GameState.GAME_OVER; 
-        
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("[GameManager] Player is dead. Reloading CURRENT sector...");
+        gameLogic.state = GameState.GAME_OVER;
+
+        if (worldManager != null)
+        {
+            gameLogic.state = GameState.RUNNING;
+
+            worldManager.ReloadCurrentSector();
+        }
+        else
+        {
+            Debug.LogError("[GameManager] WorldManager reference is missing! Falling back to Scene reload.");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }

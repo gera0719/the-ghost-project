@@ -30,6 +30,8 @@ namespace GhostProject.Data
         public string name;
         public string description;
         public string story;
+        public string backgroundSpriteName;
+        public GroundSettings groundSettings;
         public List<Dialogue> dialogues;
         public PlayerData playerStart;
         public List<HazardData> hazards;
@@ -43,6 +45,14 @@ namespace GhostProject.Data
     {
         public string speaker;
         public string message;
+    }
+    [Serializable]
+    public class GroundSettings
+    {
+        public float x;
+        public float y;
+        public float width;
+        public float height;
     }
 
     [Serializable]
