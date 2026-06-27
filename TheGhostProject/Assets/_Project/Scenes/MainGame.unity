@@ -633,7 +633,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: GhostProject.Main::WorldManager
   loader: {fileID: 771628533}
-  playerPrefab: {fileID: 4881237371439856996, guid: 1cab3d93155b51840bc5f07cc4af7070, type: 3}
+  backgroundRenderer: {fileID: 727681934}
+  groundTransform: {fileID: 563209740}
+  playerPrefab: {fileID: 3417304883278679638, guid: 944662b3087c20a42a69565e7ca072b7, type: 3}
   dronePrefab: {fileID: 8272667315486268495, guid: 786afa76509c49e40b85e41bc0358fb3, type: 3}
   hazardPrefab: {fileID: 2430865413000414391, guid: 2da45766e6852884a914533880d43626, type: 3}
   obstacleStaticPrefab: {fileID: 9163863288740445274, guid: 69450999636980e408e0beb03fbdb18d, type: 3}
@@ -664,6 +666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: GhostProject.Main::GameManager
   puzzleUI: {fileID: 1514818230}
+  worldManager: {fileID: 771628532}
 --- !u!1001 &856424599
 PrefabInstance:
   m_ObjectHideFlags: 0

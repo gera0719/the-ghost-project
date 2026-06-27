@@ -52,7 +52,7 @@ public class WorldManager : MonoBehaviour
 
         if (index >= lastLoaded.world.sectors.Count)
         {
-            Debug.Log("<color=gold>[VICTORY]: Nincs több szektor a JSON-ben! Megnyerted a játékot!</color>");
+            Debug.Log("<color=gold>[VICTORY]: Out of sectors</color>");
             return;
         }
 
@@ -89,7 +89,7 @@ public class WorldManager : MonoBehaviour
             Destroy(oldPlayer);
         }
 
-        Debug.Log("[WorldManager] Az előző szektor sikeresen kitakarítva.");
+        Debug.Log("[WorldManager] Previous sector cleared.");
     }
 
     private void SpawnSector(int index)
@@ -109,11 +109,11 @@ public class WorldManager : MonoBehaviour
             if (newBg != null)
             {
                 backgroundRenderer.sprite = newBg;
-                Debug.Log($"[WorldManager] Háttér sikeresen lecserélve: {rawData.backgroundSpriteName}");
+                Debug.Log($"[WorldManager] Background successfuly swapped: {rawData.backgroundSpriteName}");
             }
             else
             {
-                Debug.LogWarning($"[WorldManager] Nem található háttérkép a Resources/Backgrounds/{rawData.backgroundSpriteName} útvonalon!");
+                Debug.LogWarning($"[WorldManager] Background cannot be found at Resources/Backgrounds/{rawData.backgroundSpriteName} útvonalon!");
             }
         }
 
@@ -123,7 +123,7 @@ public class WorldManager : MonoBehaviour
 
             groundTransform.localScale = new Vector3(rawData.groundSettings.width, rawData.groundSettings.height, 1f);
 
-            Debug.Log($"[WorldManager] Talaj dinamikusan beállítva. Pozíció: {groundTransform.position}, Szélesség: {rawData.groundSettings.width}");
+            Debug.Log($"[WorldManager] Ground set. Position: {groundTransform.position}, Width: {rawData.groundSettings.width}");
         }
 
 

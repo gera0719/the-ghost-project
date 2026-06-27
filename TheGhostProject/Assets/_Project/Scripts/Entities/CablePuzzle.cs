@@ -72,6 +72,25 @@ public class CablePuzzle : MonoBehaviour
         }
     }
 
+    public void ResetPuzzle()
+    {
+        Debug.Log("[CablePuzzle] Reset.");
+
+        pairsFixed = 0;
+        selectedColor = "";
+        isRedFixed = false;
+        isBlueFixed = false;
+        isGreenFixed = false;
+        isYellowFixed = false;
+
+        if (wireRed != null) wireRed.SetActive(false);
+        if (wireBlue != null) wireBlue.SetActive(false);
+        if (wireGreen != null) wireGreen.SetActive(false);
+        if (wireYellow != null) wireYellow.SetActive(false);
+
+        gameObject.SetActive(true);
+    }
+
     private void FinishPuzzle()
     {
         Debug.Log("Puzzle finished!");

@@ -29,12 +29,21 @@ public class GameManager : MonoBehaviour
         if (puzzleUI != null)
         {
             puzzleUI.SetActive(true);
+
+            CablePuzzle cableScript = puzzleUI.GetComponentInChildren<CablePuzzle>(true);
+
+            if (cableScript != null)
+            {
+                cableScript.ResetPuzzle();
+
+                cableScript.gameObject.SetActive(true);
+            }
+            else
+            {
+                Debug.LogError("[GameManager] CablePuzzle component cannot   be found!");
+            }
+
             Time.timeScale = 0;
-            Debug.Log("[GameManager] Puzzle activated.");
-        }
-        else
-        {
-            Debug.LogError("[GameManager] No Puzzle UI set!");
         }
     }
 

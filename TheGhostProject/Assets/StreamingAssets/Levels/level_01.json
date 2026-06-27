@@ -71,29 +71,36 @@
         "hazards": [
           {
             "type": "acid",
-            "x": -0.66,
+            "x": -0.09,
             "y": -4.65,
             "width": 2.34,
+            "height": 0.7
+          },
+          {
+            "type": "acid",
+            "x": -4.31,
+            "y": -4.65,
+            "width": 2.0,
             "height": 0.7
           }
         ],
         "drones": [
           {
-            "x": 2.5,
-            "y": -0.3,
-            "patrolType": "horizontal"
+            "x": -4.0,
+            "y": 3.0,
+            "patrolType": "vertical"
           },
           {
-            "x": 5.0,
+            "x": 3.88,
             "y": -1.0,
             "patrolType": "vertical"
           }
         ],
         "terminals": [
           {
-            "id": "terminal01",
-            "x": 10.41,
-            "y": -3.65,
+            "id": "terminal02",
+            "x": 2.02,
+            "y": -2.91,
             "width": 0.9,
             "height": 2.038,
             "message": "Accessing server logs... The facility's systems are down, but some data remains. Proceed with caution."
