@@ -13,7 +13,6 @@ public class TerminalInteractable : MonoBehaviour, IInteractable
         }
         else
         {
-            // HA EZT LÁTOD A CONSOLE-BAN, MEG VAN A HIBA!
             Debug.LogError("[Terminal] Critical: GameManager couldn't be found in the scene!");
         }
     }
