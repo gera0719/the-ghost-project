@@ -1,9 +1,9 @@
-# The Ghost Project - szkeleton (v1.0)
+# The Ghost Project - beta (v1.1)
 
 ## Projekt Leírása
 A **The Ghost Project** egy 2D-s lopakodós akciójáték, ahol a játékos egy meghiúsult kísérleti projekt alanyának szerepében menekül az elzárt állomásról. A küldetés célja kritikus adatok kinyerése a terminálok feltörésével, miközben el kell kerülni a járőröző biztonsági drónokat és a környezeti veszélyforrásokat.
 
-Ez a verzió a projekt **szkeleton fázisa**, amely az alapvető technikai rendszereket (mozgás, interakció, adatvezérelt pályabetöltés) demonstrálja.
+Ez a verzió a projekt **béta fázisa**, amelyben a követelményként felvett funkciók jelentős része működőképes.
 
 ---
 
@@ -18,20 +18,33 @@ Ez a verzió a projekt **szkeleton fázisa**, amely az alapvető technikai rends
 ## Jelenlegi Állapot és Fejlesztési Megjegyzések
 
 ### 1. Vizuális Megjelenítés (Assetek)
-A projekt jelenleg kezdetleges fejlesztési fázisban van, így a **játékos karakter, a drónok és a hazardok** helyett ideiglenes **placeholder assetek** szerepelnek a játékban. Ezeket a végleges, egyedi grafikai elemek elkészülte után cseréljük le.
+A projekt jelenlegi fázisában a grafikai elemek közel véglegesnek tekinthetőek. A későbbiekben várható a **játékos karakter** és a **sav tócsa** grafikai finomítása.
 
 ### 2. Pályák és Adatszerkezet
-Jelenleg az első pálya (Quarantine Zone) érhető el. A második és harmadik pálya háttereinek kidolgozása folyamatban van, így a világot tartalmazó JSON fájl is egyelőre csak az első szektor adatait és konfigurációit tartalmazza.
+Jelenleg az első (Karantén zóna) és második pálya (Zsilip) érhető el. A harmadik pálya grafikai kidolgozása kész, azonban még nem került beépítésre. A világrészleteit tartalmazó JSON fájl egyelőre az első és második szektor adatait és konfigurációit tartalmazza.
 
 ### 3. Terminál Puzzle Rendszer
-A terminálokhoz érve az interakció elindítja a feltörési folyamatot. Az első típusú puzzle (kábelösszekötős mini-game) logikailag elkészült egy Canvas alapú felületre, azonban a vizuális megjelenítéssel jelenleg technikai problémák adódtak. Ez a hiba orvoslás alatt áll, a logika a háttérben már működik.
+A terminálokhoz érve az interakció elindítja a feltörési folyamatot. Az első típusú puzzle (kábelösszekötős mini-game) elkészült egy Canvas alapú felületre, beépítésre került a játékba. A továbbiakban különféle fejtörők kialakítása a fejlesztési terv része.
 
 ### 4. Felhasználói Felület (UI) és Narratíva
 * A végleges grafikus UI felület (HUD, menük, párbeszédpanelek) elkészítése a következő fázis feladata.
-* **Történet:** Az első szektorok háttértörténete és a párbeszédek a JSON fájlban már rögzítve vannak. A UI hiánya miatt ezek a szövegek jelenleg a **Debug Log**-ba (Console) kerülnek kiírásra az interakciók során. A grafikus felület befejezése után ezek természetesen a játékos képernyőjén fognak megjelenni.
+* **Történet:** Az első és második szektor háttértörténete és a párbeszédek a JSON fájlban már rögzítve vannak. A UI hiánya miatt ezek a szövegek jelenleg a **Debug Log**-on (Console) kerülnek kiírásra az interakciók során. A grafikus felület befejezése után ezek természetesen a játékos képernyőjén fognak megjelenni.
 
-### 5. Buildelés
-A játkhoz egyelőre Windows platformra készült build profil. Build után .exe formátumban futtatható a fájl.
+### 5. Fordítási információk
+
+* **Fejlesztőkörnyezet** Unity 6000.4.4f1
+
+#### Fordítás lépései
+1. Projekt megnyitása Unity editorban.
+2. `_Project\Scenes` mappában található `MainGame` jelenet megnyitása.
+3. **File -> Build profiles...** opció kiválasztása a menüből.
+4. **Windows** opció kiválasztása
+5. A **Build** opció kiválasztásával a Unity legenerálja a .exe fájlt és az szükséges könyvtárakat.
+
+### 6. Futtatási információk
+1. A lefordított játékot tartalmazó mappa megnyitása.
+2. **GhostProject.exe** fájl elindítása.
+3. A játék teljes képernyős módban elindul és betölti az első szektort.
 
 ---
 
